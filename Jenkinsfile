@@ -10,6 +10,6 @@ cmake ..'''
         sh 'cd build && make '
     }
     stage('RUN'){
-        sh 'cd build && ./app/mainapp/main'
+        sh 'cd build && ./app/mainapp/main && n'
     }
 }
